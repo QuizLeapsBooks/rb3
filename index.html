@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Raksha Bandhan</title>
+    <link rel="stylesheet" href="rb1.css">
+</head>
+<body>
+    <header>
+        <h1>Happy Raksha Bandhan</h1>
+        <h1>Shivam</h1>
+    </header>
+    <main>
+        <section class="hero">
+            <img src="rakhi.jpg" alt="Raksha Bandhan">
+            <div class="hero-text">
+                <h2>Celebrate the Bond of Love</h2>
+                <p>Raksha Bandhan is a special occasion to celebrate the bond between brothers and sisters.</p>
+                <button id="sendWishesButton" onclick="initiateCall()" style="display: none;">Send Wishes</button>
+            </div>
+        </section>
+        <section class="rakhi-virtual">
+            <h2>Virtual Rakhi Ceremony</h2>
+            <div class="wrist" id="wrist">
+                <img src="Lovepik_com-401174384-hand.png" alt="Wrist" class="wrist-img">
+                <img src="—Pngtree—raksha bandhan png rakhi i_8493163.png" alt="Rakhi" class="rakhi-img" id="rakhi" draggable="true" ondragstart="drag(event)">
+            </div>
+            <p>Drag the Rakhi to the wrist to celebrate online!</p>
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,91 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #ffecd2;
+    background: linear-gradient(to right, #fcb69f, #ffecd2);
+    text-align: center;
+}
+
+header {
+    background: #ff5733;
+    color: white;
+    padding: 1rem 0;
+}
+
+h1 {
+    margin: 0;
+}
+
+.hero {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+}
+
+.hero img {
+    width: 100%;
+    max-width: 600px;
+    border-radius: 10px;
+    margin-bottom: 2rem;
+}
+
+.hero-text {
+    background: rgba(255, 255, 255, 0.8);
+    padding: 2rem;
+    border-radius: 10px;
+}
+
+.hero-text h2 {
+    margin-top: 0;
+}
+
+.hero-text p {
+    font-size: 1.2rem;
+}
+
+button {
+    background: #ff5733;
+    color: white;
+    padding: 1rem 2rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+button:hover {
+    background: #c70039;
+}
+
+.rakhi-virtual {
+    padding: 2rem;
+}
+
+.wrist {
+    position: relative;
+    display: inline-block;
+}
+
+.wrist-img {
+    width: 300px;
+    border-radius: 10px;
+}
+
+.rakhi-img {
+    width: 100px;
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    cursor: grab;
+}
+
+footer {
+    background: #ff5733;
+    color: white;
+    padding: 1rem 0;
+    position: relative;
+    width: 100%;
+}
